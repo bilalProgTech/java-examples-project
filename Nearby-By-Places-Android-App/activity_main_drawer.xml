@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hospitals"
+            android:title="Hospitals" />
+        <item
+            android:id="@+id/nav_atm"
+            android:title="ATMs" />
+        <item
+            android:id="@+id/nav_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_none"
+            android:title="None" />
+    </group>
+
+    <item android:title="Map Type">
+        <menu>
+            <item
+                android:id="@+id/nav_normal"
+                android:title="Normal" />
+            <item
+                android:id="@+id/nav_satellite"
+                android:title="Satellite" />
+            <item
+                android:id="@+id/nav_Terrain"
+                android:title="Terrain" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
